@@ -1,10 +1,10 @@
-#include "sqlClient.h"
+#include "MainWidget.h"
 #include <QtWidgets/QApplication>
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     QApplication a(argc, argv);
-    sqlClient w;
+    MainWidget w;
     w.show();
     return a.exec();
 }
